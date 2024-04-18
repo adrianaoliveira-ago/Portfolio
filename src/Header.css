@@ -1,0 +1,42 @@
+#page-header {
+  background-image: linear-gradient(
+    to left top,
+    #19d2c7,
+    #3cd5eb,
+    #79d6ff,
+    #add5ff,
+    #d5d5ff,
+    #e4d1fb,
+    #f3cdf3,
+    #ffc9e8,
+    #ffbfd0,
+    #ffc09c,
+    #ffd559,
+    #fff600
+  );
+
+  height: 20em;
+  position: relative;
+}
+
+.page-header-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-header-li {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 20em;
+  padding-top: 2em;
+}
+
+.page-header-button {
+  padding-top: 2em;
+}
+
+.page-header-wave {
+  padding-top: 20em;
+  position: absolute;
+}
