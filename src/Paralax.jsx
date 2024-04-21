@@ -8,7 +8,7 @@ const Paralax = () => {
           className="background"
           //   src="https://cdn.imgpaste.net/2022/10/10/Kem93m.png"
           //   src="./girlBackground.png"
-          src="./girlBackground.png"
+          src="./girlBackground.jpg"
         />
         <img
           className="foreground"
