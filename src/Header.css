@@ -15,8 +15,12 @@
     #fff600
   );
 
-  height: 20em;
+  height: 8em;
   position: relative;
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  z-index: 1;
 }
 
 .page-header-ul {
@@ -36,10 +40,10 @@
   padding-top: 2em;
 }
 
-.page-header-wave {
+/* .page-header-wave {
   padding-top: 20em;
   position: absolute;
-}
+} */
 
 .page-header-name {
   display: flex;

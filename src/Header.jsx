@@ -1,7 +1,7 @@
 import "./Header.css";
 
 import GetInTouchButton from "./assets/GetInTouch-Button.svg";
-import waveHeader from "./assets/Wave-header.svg";
+// import waveHeader from "./assets/Wave-header.svg";
 
 const Header = () => {
   return (
@@ -18,9 +18,9 @@ const Header = () => {
             {/* <li>Get in touch</li> */}
           </ul>
           <img src={GetInTouchButton} className="page-header-button" />
-          <div className="page-header-wave">
+          {/* <div className="page-header-wave">
             <img src={waveHeader} />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
