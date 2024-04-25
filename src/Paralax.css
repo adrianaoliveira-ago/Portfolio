@@ -64,5 +64,20 @@ section {
 }
 
 .paralax-section {
-  padding-bottom: 8em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.paralax-div-section {
+  position: absolute;
+}
+
+.paralax-experience {
+  background-color: aqua;
+  height: 30em;
+  width: 30em;
+  position: absolute;
+  display: flex;
+  margin-left: 10em;
 }

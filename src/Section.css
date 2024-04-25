@@ -1,4 +1,30 @@
 .section {
-  padding: 8em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-div {
+  padding: 12em;
   background-color: rosybrown;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.section-experience {
+  background-color: aqua;
+  height: 30em;
+  width: 30em;
+  position: absolute;
+  display: flex;
+  margin-left: 10em;
+}
+
+.section-photo {
+  background-color: blueviolet;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  position: absolute;
+  margin-right: 10em;
 }
