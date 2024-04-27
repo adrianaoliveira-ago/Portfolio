@@ -56,11 +56,17 @@ header {
   text-shadow: 0 0 5px black;
 }
 
-section {
-  font-size: 2rem;
-  padding: 2rem;
+.paralax-text-section {
+  font-size: 2em;
   background-color: #333;
   color: white;
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 8em;
+  margin-top: 14em;
+  padding-left: 4em;
 }
 
 .paralax-section {
@@ -71,6 +77,8 @@ section {
 
 .paralax-div-section {
   position: absolute;
+  padding-top: 4em;
+  width: 100%;
 }
 
 .paralax-experience {
@@ -80,4 +88,10 @@ section {
   position: absolute;
   display: flex;
   margin-left: 10em;
+  margin-top: 20em;
+}
+
+.paralax-text-description {
+  width: 23em;
+  margin-top: 2em;
 }

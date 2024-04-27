@@ -1,6 +1,7 @@
 .section {
   display: flex;
   justify-content: flex-end;
+  /* padding-top: 8em; */
 }
 
 .section-div {
@@ -9,6 +10,7 @@
   position: relative;
   display: flex;
   width: 100%;
+  margin-top: 7em;
 }
 
 .section-experience {

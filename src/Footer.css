@@ -1,4 +1,12 @@
-.footer-wave {
+.footer {
   background-color: palevioletred;
-  height: 8em;
+  height: 24em;
+  margin-top: 15em;
+  position: relative;
+}
+
+.footer-wave {
+  position: absolute;
+  display: flex;
+  margin-top: 19em;
 }
