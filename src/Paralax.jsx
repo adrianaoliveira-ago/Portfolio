@@ -31,6 +31,7 @@ const Paralax = () => {
               <br />
               I'm Adriana
               <br />
+              <br />
               As a recent career changer transitioning into the IT field as a
               UI/UX designer and front-end developer, I am excited to apply my
               fresh perspective and passion for innovation to create exceptional

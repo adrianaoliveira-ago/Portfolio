@@ -52,8 +52,10 @@ header {
 
 .title {
   font-size: 7rem;
-  color: white;
+  /* color: white; */
   text-shadow: 0 0 5px black;
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
 }
 
 .paralax-text-section {
@@ -65,7 +67,7 @@ header {
   align-items: center;
   width: 100%;
   padding-bottom: 8em;
-  margin-top: 14em;
+  margin-top: 16em;
   padding-left: 4em;
 }
 
@@ -88,7 +90,7 @@ header {
   position: absolute;
   display: flex;
   margin-left: 10em;
-  margin-top: 20em;
+  margin-top: 24em;
 }
 
 .paralax-text-description {
