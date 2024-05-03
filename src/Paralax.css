@@ -59,41 +59,60 @@ header {
 }
 
 .paralax-text-section {
-  font-size: 2em;
-  background-color: #333;
-  color: white;
+  font-size: 30px;
+  /* font-family: ui-sans-serif; */
+  font-family: sunborn;
+  background-color: #19d2c7;
+  color: #42210b;
   display: flex;
   position: relative;
   align-items: center;
-  width: 100%;
-  padding-bottom: 8em;
-  margin-top: 16em;
+  /* width: 100%; */
+  /* padding-bottom: 8em; */
+  /* margin-top: 16em; */
   padding-left: 4em;
+  /* margin-top: 8em; */
+  /* margin-top: 16em; */
+  margin-top: 22em;
+  justify-content: space-around;
 }
 
 .paralax-section {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   align-items: center;
 }
 
 .paralax-div-section {
   position: absolute;
-  padding-top: 4em;
+  /* padding-top: 4em; */
   width: 100%;
 }
 
 .paralax-experience {
-  background-color: aqua;
-  height: 30em;
-  width: 30em;
+  /* background-color: aqua; */
+  width: 55em;
+  height: 55em;
   position: absolute;
   display: flex;
-  margin-left: 10em;
-  margin-top: 24em;
+  margin-left: 8em;
+  margin-top: 12em;
 }
 
 .paralax-text-description {
   width: 23em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  margin-bottom: 11em;
+  margin-top: 3em;
+}
+
+.paralax-button-linkedin {
+  display: flex;
+  height: 2em;
+  width: 10em;
+  background-color: #ffd396;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4em;
+  margin-top: 18em;
 }

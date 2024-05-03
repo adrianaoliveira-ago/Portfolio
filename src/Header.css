@@ -26,6 +26,7 @@
 .page-header-ul {
   display: flex;
   justify-content: flex-end;
+  margin-right: 10em;
 }
 
 .page-header-li {
@@ -34,7 +35,9 @@
   justify-content: space-around;
   width: 20em;
   padding-top: 2em;
-  font-family: Levi ReBrushed !important;
+  font-size: 20px;
+  font-family: sunborn;
+  color: #42210b;
 }
 
 .page-header-button {
@@ -49,6 +52,9 @@
 .page-header-name {
   display: flex;
   position: absolute;
-  padding-top: 2em;
-  padding-left: 3em;
+  /* padding-top: 2em; */
+  padding-left: 4em;
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
+  font-size: 3em;
 }

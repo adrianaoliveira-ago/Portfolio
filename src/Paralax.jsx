@@ -2,6 +2,8 @@ import "./Paralax.css";
 
 // import waveHeader from "./assets/Wave-header.svg";
 
+// import photoResume from "./assets/photoResume.svg";
+
 const Paralax = () => {
   return (
     <div className="wrapper">
@@ -37,10 +39,11 @@ const Paralax = () => {
               fresh perspective and passion for innovation to create exceptional
               digital experiences
             </section>
+            <div className="paralax-button-linkedin">LinkedIn</div>
           </div>
         </div>
       </div>
-      <div className="paralax-experience"></div>
+      <img className="paralax-experience" src="./photoResume.png" />
     </div>
   );
 };
