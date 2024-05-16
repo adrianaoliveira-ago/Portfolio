@@ -5,8 +5,21 @@
 }
 
 .section-div {
+  background-image: linear-gradient(
+    to left top,
+    #19d2c7,
+    #3cd5eb,
+    #79d6ff,
+    #add5ff,
+    #d5d5ff,
+    #e4d1fb,
+    #f3cdf3,
+    #ffc9e8,
+    #ffbfd0,
+    #ffc09c
+  );
   padding: 12em;
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   position: relative;
   display: flex;
   width: 100%;
@@ -23,13 +36,23 @@
   margin-left: 10em;
 }
 
-.section-photo {
-  background-color: blueviolet;
+.section-experience {
+  background-color: #19d2c7;
   height: 30em;
   width: 30em;
   display: flex;
   position: absolute;
   margin-right: 10em;
+  border-radius: 1em;
+}
+
+.section-title {
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .section-div-experience {
@@ -37,6 +60,7 @@
   justify-content: flex-end;
   width: 100%;
   /* margin-top: 10em; */
+  overflow: hidden;
 }
 
 .section-div-language {
@@ -70,8 +94,21 @@
 }
 
 .section-designs {
+  background-image: linear-gradient(
+    to left top,
+    #19d2c7,
+    #3cd5eb,
+    #79d6ff,
+    #add5ff,
+    #d5d5ff,
+    #e4d1fb,
+    #f3cdf3,
+    #ffc9e8,
+    #ffbfd0,
+    #ffc09c
+  );
   display: flex;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 10em;
   margin-top: 16em;
   justify-content: center;
@@ -80,4 +117,58 @@
   font-family: "LeviReBrushed" !important;
   color: #ff5490;
   font-size: 3em;
+}
+
+.section-div-education {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-education-description {
+  width: 20em;
+  margin-right: 6em;
+  color: #42210b;
+  font-size: 24px;
+  font-family: sunborn;
+}
+.section-title-education {
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
+  font-size: 3em;
+  margin-bottom: -60px;
+}
+
+.section-div-code-skills {
+  font-family: sunborn;
+  /* font-size: 22px; */
+  /* line-height: 1.8; */
+  color: #42210b;
+}
+.section-div-description-skills {
+  font-size: medium;
+  color: #42210b;
+  margin-top: 3em;
+}
+
+.section-code-title {
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
+  font-size: 3em;
+  margin-bottom: -28px;
+}
+
+.section-code-subtitle {
+  font-size: 22px;
+  color: #42210b;
+  position: absolute;
+}
+
+.section-tags {
+  display: flex;
+  height: 2em;
+  width: 10em;
+  background-color: #ffd396;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4em;
 }

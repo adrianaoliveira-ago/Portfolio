@@ -1,15 +1,12 @@
 import "./Paralax.css";
-
 // import waveHeader from "./assets/Wave-header.svg";
-
 // import photoResume from "./assets/photoResume.svg";
+import Section from "./Section";
 
 const Paralax = () => {
   return (
     <div className="wrapper">
-      {/* <div className="page-header-wave">
-        <img src={waveHeader} />
-      </div> */}
+      {/* parallax */}
       <header>
         <img
           className="background"
@@ -25,25 +22,29 @@ const Paralax = () => {
         />
         <h1 className="title">Welcome!</h1>
       </header>
-      <div className="paralax-section">
-        <div className="paralax-div-section">
-          <div className="paralax-text-section">
-            <section className="paralax-text-description">
-              Hello!
-              <br />
-              I'm Adriana
-              <br />
-              <br />
-              As a recent career changer transitioning into the IT field as a
-              UI/UX designer and front-end developer, I am excited to apply my
-              fresh perspective and passion for innovation to create exceptional
-              digital experiences
-            </section>
-            <div className="paralax-button-linkedin">LinkedIn</div>
+
+      {/* rest of the content goes here */}
+      <div className="content">
+        <section className="content-about-me">
+          <p>
+            Hello!
+            <br />
+            I'm Adriana
+            <br />
+            <br />
+            As a recent career changer transitioning into the IT field as a
+            UI/UX designer and front-end developer, I am excited to apply my
+            fresh perspective and passion for innovation to create exceptional
+            digital experiences
+          </p>
+          <div className="paralax-button-linkedin">LinkedIn</div>
+          <div className="content-about-me-div">
+            <img className="content-about-me-img" src="./photoResume.png" />
           </div>
-        </div>
+        </section>
+
+        <Section />
       </div>
-      <img className="paralax-experience" src="./photoResume.png" />
     </div>
   );
 };

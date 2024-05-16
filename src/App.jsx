@@ -4,7 +4,6 @@
 // import "./App.css";
 import Header from "./Header";
 import Paralax from "./Paralax";
-import Section from "./Section";
 // import Footer from "./Footer";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
     <>
       <Header />
       <Paralax />
-      <Section />
       {/* <Footer /> */}
     </>
   );

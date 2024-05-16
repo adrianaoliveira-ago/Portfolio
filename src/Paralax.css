@@ -41,7 +41,7 @@ header {
   background-size: cover;
   background-repeat: repeat-x;
   position: absolute;
-  top: 8em;
+  /* top: 8em; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -58,45 +58,39 @@ header {
   color: #ff5490;
 }
 
-.paralax-text-section {
-  font-size: 30px;
-  /* font-family: ui-sans-serif; */
-  font-family: sunborn;
-  background-color: #19d2c7;
-  color: #42210b;
-  display: flex;
-  position: relative;
-  align-items: center;
-  /* width: 100%; */
-  /* padding-bottom: 8em; */
-  /* margin-top: 16em; */
-  padding-left: 4em;
-  /* margin-top: 8em; */
-  /* margin-top: 16em; */
-  margin-top: 22em;
-  justify-content: space-around;
-}
-
-.paralax-section {
-  display: flex;
-  /* width: 100%; */
-  align-items: center;
-}
-
-.paralax-div-section {
+.content {
   position: absolute;
   /* padding-top: 4em; */
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* background-color: #ff5490; */
+  background-color: white;
 }
 
-.paralax-experience {
-  /* background-color: aqua; */
-  width: 55em;
-  height: 55em;
-  position: absolute;
+.content-about-me {
+  font-size: 30px;
+  font-family: sunborn;
+  background-color: #19d2c7;
+  color: #42210b;
+  padding: 2em 2em;
   display: flex;
-  margin-left: 8em;
-  margin-top: 12em;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.content-about-me p {
+  width: 20em;
+}
+
+.content-about-me-img {
+  position: absolute;
+  width: 20em;
+  height: 20em;
 }
 
 .paralax-text-description {
@@ -114,5 +108,8 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 4em;
-  margin-top: 18em;
+}
+
+.content-about-me-div {
+  position: absolute;
 }
