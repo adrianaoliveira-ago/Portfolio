@@ -89,8 +89,8 @@ header {
 
 .content-about-me-img {
   position: absolute;
-  width: 20em;
-  height: 20em;
+  width: 15em;
+  height: 16em;
 }
 
 .paralax-text-description {
@@ -103,11 +103,13 @@ header {
 .paralax-button-linkedin {
   display: flex;
   height: 2em;
-  width: 10em;
+  width: 8em;
   background-color: #ffd396;
   justify-content: center;
   align-items: center;
   border-radius: 4em;
+  border-style: solid;
+  border-color: #42210b;
 }
 
 .content-about-me-div {

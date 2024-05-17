@@ -25,6 +25,10 @@
   width: 100%;
   margin-top: 7em;
   margin-top: 15em;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5em;
+  padding-top: 7em;
 }
 
 .section-experience {
@@ -140,9 +144,9 @@
 
 .section-div-code-skills {
   font-family: sunborn;
-  /* font-size: 22px; */
-  /* line-height: 1.8; */
   color: #42210b;
+  /* display: flex; */
+  margin-top: -1em;
 }
 .section-div-description-skills {
   font-size: medium;
@@ -171,4 +175,73 @@
   justify-content: center;
   align-items: center;
   border-radius: 4em;
+  margin: 0.2em;
+}
+
+/* .section-icons-software {
+  display: flex;
+} */
+
+.section-icons {
+  width: 3em;
+  height: 3em;
+}
+
+.section-icons-software > img:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.section-div-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3em;
+}
+
+.section-software-title {
+  font-family: "LeviReBrushed" !important;
+  color: #ff5490;
+  font-size: 3em;
+  margin-bottom: 0em;
+  margin-top: 3em;
+}
+
+.section-div-tags {
+  display: flex;
+}
+
+.section-experience-content {
+  display: flex;
+  flex-direction: column;
+  color: #42210b;
+  font-size: 24px;
+  font-family: sunborn;
+  width: 100%;
+  margin: 18px;
 }

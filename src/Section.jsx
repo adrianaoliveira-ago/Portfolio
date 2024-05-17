@@ -27,13 +27,16 @@ const Section = () => {
             <br />
           </section>
         </div>
+
         <div className="section-div-experience">
           <div className="section-div">
             <div className="section-div-code-skills">
-              <h1 className="section-code-title">Coding skills</h1>
+              <h1 className="section-code-title">Technical skills</h1>
               <br />
-              <h1 className="section-code-subtitle">Basic Knowledge of:</h1>
+              <h1 className="section-code-subtitle">Coding Skills</h1>
               <div className="section-div-description-skills">
+                Basic Knowledge of:
+                <br />
                 <br />
                 <p>HTML</p>
                 <br />
@@ -44,13 +47,35 @@ const Section = () => {
                 <p>TypeScript</p>
               </div>
               <br />
-              <div className="section-tags">UI / UX</div>
-              <br />
-              <div className="section-tags">Visual Design</div>
+              <div className="section-div-tags">
+                <div className="section-tags">UI / UX</div>
+                <br />
+                <div className="section-tags">Visual Design</div>
+                <br />
+                <div className="section-tags">Design Responsive</div>
+              </div>
+            </div>
+            <div className="section-div-icons">
+              <h1 className="section-software-title">Software Skills</h1>
+              <div className="section-icons-software">
+                <img className="section-icons" src="./iconPs.png"></img>
+                <img className="section-icons" src="./iconId.png"></img>
+                <img className="section-icons" src="./iconPr.png"></img>
+                <img className="section-icons" src="./iconAi.png"></img>
+                <img className="section-icons" src="./iconXd.png"></img>
+                <img className="section-icons" src="./iconFigma.png"></img>
+              </div>
             </div>
           </div>
           <div className="section-experience">
-            <h1 className="section-title">Experience</h1>
+            <div>
+              <h1 className="section-title">Experience</h1>
+              <div className="section-experience-content">
+                <b> ☆ 2023 - Freelancer</b>
+                Consulted with clients, created logos, posters, presentation
+                based on their requirements.
+              </div>
+            </div>
           </div>
         </div>
         <div className="section-div-language">
