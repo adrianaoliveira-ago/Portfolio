@@ -1,4 +1,4 @@
-#page-header {
+/* #page-header {
   background-image: linear-gradient(
     to left top,
     #19d2c7,
@@ -11,14 +11,25 @@
     #ffc9e8,
     #ffbfd0,
     #ffc09c
+  ); */
+#page-header {
+  background-image: linear-gradient(
+    to left bottom,
+    #f9cdc3,
+    #ffcbcc,
+    #ffcad9,
+    #ffcbe9,
+    #facefb
   );
-
   height: 8em;
   position: relative;
   position: fixed;
   -webkit-backface-visibility: hidden;
   width: 100%;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .page-header-ul {
@@ -31,10 +42,12 @@
   display: flex;
   list-style: none;
   justify-content: space-around;
-  width: 20em;
-  padding-top: 2em;
-  font-size: 20px;
-  font-family: sunborn;
+  /* width: 20em; */
+  /* padding-top: 2em; */
+  /* font-size: 20px; */
+  font-weight: bolder;
+  font-size: 28px;
+  /* font-family: sunborn; */
   color: #42210b;
 }
 

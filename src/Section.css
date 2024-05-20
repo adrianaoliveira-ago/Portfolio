@@ -5,19 +5,8 @@
 }
 
 .section-div {
-  background-image: linear-gradient(
-    to left top,
-    #19d2c7,
-    #3cd5eb,
-    #79d6ff,
-    #add5ff,
-    #d5d5ff,
-    #e4d1fb,
-    #f3cdf3,
-    #ffc9e8,
-    #ffbfd0,
-    #ffc09c
-  );
+  background-color: #f9cdc3;
+  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
   padding: 12em;
   /* background-color: rosybrown; */
   position: relative;
@@ -41,7 +30,14 @@
 }
 
 .section-experience {
-  background-color: #19d2c7;
+  background-image: linear-gradient(
+    to left bottom,
+    #f9cdc3,
+    #ffcbcc,
+    #ffcad9,
+    #ffcbe9,
+    #facefb
+  );
   height: 30em;
   width: 30em;
   display: flex;
@@ -98,19 +94,8 @@
 }
 
 .section-designs {
-  background-image: linear-gradient(
-    to left top,
-    #19d2c7,
-    #3cd5eb,
-    #79d6ff,
-    #add5ff,
-    #d5d5ff,
-    #e4d1fb,
-    #f3cdf3,
-    #ffc9e8,
-    #ffbfd0,
-    #ffc09c
-  );
+  background-color: #f9cdc3;
+  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
   display: flex;
   /* background-color: aquamarine; */
   height: 10em;

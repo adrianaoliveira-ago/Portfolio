@@ -2,6 +2,7 @@ import "./Paralax.css";
 // import waveHeader from "./assets/Wave-header.svg";
 // import photoResume from "./assets/photoResume.svg";
 import Section from "./Section";
+import Button from "./Button";
 
 const Paralax = () => {
   return (
@@ -35,9 +36,13 @@ const Paralax = () => {
             As a recent career changer transitioning into the IT field as a
             UI/UX designer and front-end developer, I am excited to apply my
             fresh perspective and passion for innovation to create exceptional
-            digital experiences
+            digital experiences.
           </p>
-          <div className="paralax-button-linkedin">LinkedIn</div>
+          <div className="content-div-mokup">
+            <img className="content-mockup" src="mockup.png"></img>
+            {/* <div className="paralax-button-linkedin">LinkedIn</div> */}
+            <Button />
+          </div>
           <div className="content-about-me-div">
             <img className="content-about-me-img" src="./photoResume.png" />
           </div>

@@ -71,20 +71,24 @@ header {
 }
 
 .content-about-me {
-  font-size: 30px;
-  font-family: sunborn;
-  background-color: #19d2c7;
+  font-size: 28px;
+  /* font-family: sunborn; */
+  background-color: #f9cdc3;
+  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
   color: #42210b;
   padding: 2em 2em;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding-left: 5em;
-  padding-right: 5em;
+  /* padding-left: 5em;
+  padding-right: 5em; */
+  font-family: indie flower;
+  font-weight: bold;
 }
 
 .content-about-me p {
-  width: 20em;
+  width: 23em;
+  margin-bottom: 5em;
 }
 
 .content-about-me-img {
@@ -99,7 +103,16 @@ header {
   margin-bottom: 11em;
   margin-top: 3em;
 }
+.content-div-mokup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.content-mockup {
+  width: 22em;
+  margin-bottom: 2em;
+}
 .paralax-button-linkedin {
   display: flex;
   height: 2em;
