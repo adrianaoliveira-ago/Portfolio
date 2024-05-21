@@ -34,12 +34,13 @@
   border-radius: 5rem;
 }
 
-strong {
+.btn > strong {
   z-index: 2;
-  font-family: "Avalors Personal Use";
-  font-size: 12px;
-  letter-spacing: 5px;
+  font-family: var(--font-text);
+  font-size: 18px;
+  letter-spacing: 4px;
   color: #ffffff;
+  font-weight: bold;
   text-shadow: 0 0 4px white;
 }
 
@@ -67,7 +68,7 @@ strong {
 
 .btn:hover #container-stars {
   z-index: 1;
-  background-color: #212121;
+  background-color: #fe53bb;
 }
 
 .btn:hover {

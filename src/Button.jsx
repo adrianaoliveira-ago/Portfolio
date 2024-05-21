@@ -1,9 +1,12 @@
 import "./Button.css";
 
-const Button = () => {
+import PropTypes from "prop-types";
+
+const Button = ({ name, onClick }) => {
   return (
-    <button className="btn" type="button">
-      <strong>LinkedIn</strong>
+    <button className="btn" type="button" onClick={onClick}>
+      <strong>{name}</strong>
+
       <div id="container-stars">
         <div id="stars"></div>
       </div>
@@ -14,6 +17,10 @@ const Button = () => {
       </div>
     </button>
   );
+};
+Button.propTypes = {
+  name: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default Button;

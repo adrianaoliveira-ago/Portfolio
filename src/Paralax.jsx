@@ -41,7 +41,7 @@ const Paralax = () => {
           <div className="content-div-mokup">
             <img className="content-mockup" src="mockup.png"></img>
             {/* <div className="paralax-button-linkedin">LinkedIn</div> */}
-            <Button />
+            <Button name="LinkedIn" />
           </div>
           <div className="content-about-me-div">
             <img className="content-about-me-img" src="./photoResume.png" />

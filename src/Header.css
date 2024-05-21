@@ -13,14 +13,7 @@
     #ffc09c
   ); */
 #page-header {
-  background-image: linear-gradient(
-    to left bottom,
-    #f9cdc3,
-    #ffcbcc,
-    #ffcad9,
-    #ffcbe9,
-    #facefb
-  );
+  background-image: var(--section-gradient);
   height: 8em;
   position: relative;
   position: fixed;
@@ -35,7 +28,8 @@
 .page-header-ul {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10em;
+  padding-right: 4em;
+  align-items: center;
 }
 
 .page-header-li {
@@ -49,6 +43,8 @@
   font-size: 28px;
   /* font-family: sunborn; */
   color: #42210b;
+  width: 28%;
+  justify-content: space-around;
 }
 
 .page-header-button {

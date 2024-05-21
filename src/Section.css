@@ -6,7 +6,7 @@
 
 .section-div {
   background-color: #f9cdc3;
-  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
+  background-image: var(--section-pattern);
   padding: 12em;
   /* background-color: rosybrown; */
   position: relative;
@@ -30,14 +30,7 @@
 }
 
 .section-experience {
-  background-image: linear-gradient(
-    to left bottom,
-    #f9cdc3,
-    #ffcbcc,
-    #ffcad9,
-    #ffcbe9,
-    #facefb
-  );
+  background-image: var(--section-gradient);
   height: 30em;
   width: 30em;
   display: flex;
@@ -47,8 +40,10 @@
 }
 
 .section-title {
-  font-family: "LeviReBrushed" !important;
-  color: #ff5490;
+  /* font-family: "LeviReBrushed" !important; */
+  font-family: var(--title-font-family);
+  /* color: #ff5490; */
+  color: var(--title-text-color);
   font-size: 3em;
   display: flex;
   justify-content: center;
@@ -64,8 +59,10 @@
 }
 
 .section-div-language {
-  font-family: "LeviReBrushed" !important;
-  color: #ff5490;
+  /* font-family: "LeviReBrushed" !important; */
+  font-family: var(--title-font-family);
+  /* color: #ff5490; */
+  color: var(--title-text-color);
   justify-content: flex-start;
   margin-left: 6em;
   display: flex;
@@ -77,7 +74,7 @@
 .section-language-description {
   display: flex;
   /* font-family: "poppies"; */
-  font-family: sunborn;
+  font-family: var(--font-text);
   font-size: 22px;
   line-height: 1.8;
   color: #42210b;
@@ -95,7 +92,7 @@
 
 .section-designs {
   background-color: #f9cdc3;
-  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
+  background-image: var(--section-pattern);
   display: flex;
   /* background-color: aquamarine; */
   height: 10em;
@@ -103,7 +100,7 @@
   justify-content: center;
 }
 .section-desings-title {
-  font-family: "LeviReBrushed" !important;
+  font-family: var(--title-font-family);
   color: #ff5490;
   font-size: 3em;
 }
@@ -118,17 +115,17 @@
   margin-right: 6em;
   color: #42210b;
   font-size: 24px;
-  font-family: sunborn;
+  font-family: var(--font-text);
 }
 .section-title-education {
-  font-family: "LeviReBrushed" !important;
+  font-family: var(--title-font-family);
   color: #ff5490;
   font-size: 3em;
   margin-bottom: -60px;
 }
 
 .section-div-code-skills {
-  font-family: sunborn;
+  font-family: var(--font-text);
   color: #42210b;
   /* display: flex; */
   margin-top: -1em;
@@ -140,7 +137,7 @@
 }
 
 .section-code-title {
-  font-family: "LeviReBrushed" !important;
+  font-family: var(--title-font-family);
   color: #ff5490;
   font-size: 3em;
   margin-bottom: -28px;
@@ -226,7 +223,7 @@
   flex-direction: column;
   color: #42210b;
   font-size: 24px;
-  font-family: sunborn;
+  font-family: var(--font-text);
   width: 100%;
   margin: 18px;
 }

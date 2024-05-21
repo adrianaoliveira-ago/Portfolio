@@ -74,7 +74,7 @@ header {
   font-size: 28px;
   /* font-family: sunborn; */
   background-color: #f9cdc3;
-  background-image: url(https://www.transparenttextures.com/patterns/black-thread-light.png);
+  background-image: var(--section-pattern);
   color: #42210b;
   padding: 2em 2em;
   display: flex;

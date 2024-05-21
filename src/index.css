@@ -3,6 +3,23 @@ body {
   font-family: indie flower;
 }
 
+/* variables */
+
+:root {
+  --title-text-color: #ff5490;
+  --title-font-family: "LeviReBrushed" !important;
+  --section-gradient: linear-gradient(
+    to left bottom,
+    #f9cdc3,
+    #ffcbcc,
+    #ffcad9,
+    #ffcbe9,
+    #facefb
+  );
+  --font-text: indie flower;
+  --section-pattern: url(https://www.transparenttextures.com/patterns/fake-luxury.png);
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -1,9 +1,17 @@
 import "./Header.css";
 
-import GetInTouchButton from "./assets/GetInTouch-Button.svg";
+// import GetInTouchButton from "./assets/GetInTouch-Button.svg";
 // import waveHeader from "./assets/Wave-header.svg";
 
+import Button from "./Button";
+
 const Header = () => {
+  const openEmail = () => {
+    const email = "adrianaoliveira.ago@gmail.com";
+    window.location.href = `mailto:${email}}`;
+    console.log(email);
+  };
+
   return (
     <>
       <div id="page-header">
@@ -15,12 +23,8 @@ const Header = () => {
             <li>Work</li>
             <li>Resume</li>
             <li>Work</li>
-            {/* <li>Get in touch</li> */}
           </ul>
-          <img src={GetInTouchButton} className="page-header-button" />
-          {/* <div className="page-header-wave">
-            <img src={waveHeader} />
-          </div> */}
+          <Button name="Get In Touch" onClick={openEmail} />
         </div>
       </div>
     </>
