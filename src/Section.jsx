@@ -1,5 +1,7 @@
 import "./Section.css";
 
+// import Button from "./Button";
+
 const Section = () => {
   return (
     <>
@@ -9,18 +11,22 @@ const Section = () => {
             <h1 className="section-title-education">Education</h1>
             <br />
             <br />
-            <b>2023 | Coursera Professional Certificate </b>
+            <b>✎ 2023 | Coursera Professional Certificate </b>
             <br />- Meta Front-End Developer
             <br />
-            <b>2010 - 2013 | State University of Health Sciences of Alagoas</b>
+            <b>
+              ✎ 2010 - 2013 | State University of Health Sciences of Alagoas
+            </b>
             <br />
             -BSc Biomedical Systems
             <br />
-            <b>2023 | Coursera Professional Certificate</b>
+            <b>✎ 2023 | Coursera Professional Certificate</b>
             <br />
             -Google UX/UI Design
             <br />
-            <b>2023 - Present | LSDM - London School of Design and Marketing</b>
+            <b>
+              ✎ 2023 - Present | LSDM - London School of Design and Marketing
+            </b>
             <br />
             -BA (Hons) Design
             <br />
@@ -28,6 +34,13 @@ const Section = () => {
           </section>
         </div>
 
+        {/* <div>
+          <img src="procreateIpad.png"></img>
+        </div> */}
+
+        {/* <div>
+          <Button name="Portfolio Download" />
+        </div> */}
         <div className="section-div-experience">
           <div className="section-div">
             <div className="section-div-code-skills">
@@ -35,16 +48,14 @@ const Section = () => {
               <br />
               <h1 className="section-code-subtitle">Coding Skills</h1>
               <div className="section-div-description-skills">
-                Basic Knowledge of:
+                <span>Basic Knowledge of:</span>
                 <br />
+                <span>HTML</span>
                 <br />
-                <p>HTML</p>
+                <span>CSS</span>
                 <br />
-                <p>CSS</p>
+                <span>JavaScript</span>
                 <br />
-                <p>JavaScript</p>
-                <br />
-                <p>TypeScript</p>
               </div>
               <br />
               <div className="section-div-tags">
@@ -93,7 +104,20 @@ const Section = () => {
           </div>
         </div>
         <div className="section-designs">
-          <h1 className="section-desings-title">Designs</h1>
+          <div>
+            <h1 className="section-desings-title">Designs</h1>
+          </div>
+          <div>
+            <div>
+              <img
+                className="section-mockup-ipad"
+                src="procreateIpad.png"
+              ></img>
+            </div>
+            {/* <div>
+              <img className="section-mockup-ipad" src="mockupIphone.png"></img>
+            </div> */}
+          </div>
         </div>
       </div>
     </>
