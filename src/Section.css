@@ -7,7 +7,7 @@
 .section-div {
   background-color: #f9cdc3;
   background-image: var(--section-pattern);
-  padding: 12em;
+  /* padding: 12em; */
   /* background-color: rosybrown; */
   position: relative;
   display: flex;
@@ -17,25 +17,27 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 5em;
-  padding-top: 7em;
+  padding-top: 10em;
+  padding-left: 9em;
+  padding-right: 18em;
 }
 
-.section-experience {
+/* .section-experience {
   background-color: aqua;
   height: 30em;
   width: 30em;
   position: absolute;
   display: flex;
   margin-left: 10em;
-}
+} */
 
 .section-experience {
   background-image: var(--section-gradient);
-  height: 30em;
-  width: 30em;
+  height: 33em;
+  width: 50em;
   display: flex;
   position: absolute;
-  margin-right: 10em;
+  margin-right: 7em;
   border-radius: 1em;
 }
 
@@ -117,7 +119,7 @@
 
 .section-education-description {
   width: 20em;
-  margin-right: 6em;
+  margin-right: 10em;
   color: #42210b;
   font-size: 24px;
   font-family: var(--font-text);
@@ -236,4 +238,11 @@
 
 .section-mockup-ipad {
   width: 35em;
+}
+
+.section-div-description-experience {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 2em;
 }

@@ -79,12 +79,19 @@ const Section = () => {
             </div>
           </div>
           <div className="section-experience">
-            <div>
+            <div className="section-div-description-experience">
               <h1 className="section-title">Experience</h1>
               <div className="section-experience-content">
-                <b> ☆ 2023 - Freelancer</b>
+                <b> ☆ 2022 - Freelancer</b>
                 Consulted with clients, created logos, posters, presentation
                 based on their requirements.
+                <b> ☆ 2023 - Design Gráfico</b>
+                Criação de logotipos, banners, e material gráfico para websites
+                e redes sociais utilizando Adobe Photoshop e Illustrator.
+                Desenvolvimento de wireframes e protótipos de alta fidelidade
+                com Figma e Adobe XD. Design de interfaces de usuário (UI) com
+                foco na experiência do usuário (UX), garantindo usabilidade e
+                acessibilidade.
               </div>
             </div>
           </div>

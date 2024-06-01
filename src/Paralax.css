@@ -84,6 +84,8 @@ header {
   padding-right: 5em; */
   font-family: indie flower;
   font-weight: bold;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
 .content-about-me p {
