@@ -22,7 +22,7 @@ const Header = () => {
           <ul className="page-header-li">
             <li>Work</li>
             <li>Resume</li>
-            <li>Work</li>
+            <li>LinkedIn </li>
           </ul>
           <Button name="Get In Touch" onClick={openEmail} />
         </div>

@@ -110,6 +110,8 @@
   font-size: 3em;
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+  margin-top: 2em;
 }
 
 .section-div-education {
@@ -134,8 +136,7 @@
 .section-div-code-skills {
   font-family: var(--font-text);
   color: #42210b;
-  /* display: flex; */
-  margin-top: -1em;
+  margin-top: -3em;
 }
 .section-div-description-skills {
   font-size: larger;
@@ -245,4 +246,45 @@
   flex-direction: column;
   padding-left: 1em;
   padding-right: 2em;
+}
+
+.section-designs-and-descriptions {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-makeup-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.section-mockup-makeup {
+  width: 35em;
+}
+
+.section-description-mockup-makeup {
+  margin: 4em;
+}
+.section-div-mockup-quotes {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+.section-mockup-quotes {
+  width: 35em;
+}
+.section-titles-mockups {
+  font-family: var(--title-font-family);
+  color: #ff5490;
+  font-size: 2em;
+}
+.section-button-quotes {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 2em;
 }

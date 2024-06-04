@@ -1,6 +1,10 @@
 import "./Section.css";
 
-// import Button from "./Button";
+import Button from "./Button";
+
+const openLink = (link) => {
+  window.open(link, "_blank");
+};
 
 const Section = () => {
   return (
@@ -115,15 +119,64 @@ const Section = () => {
             <h1 className="section-desings-title">Designs</h1>
           </div>
           <div>
-            <div>
+            <div className="section-designs-and-descriptions">
               <img
                 className="section-mockup-ipad"
                 src="procreateIpad.png"
               ></img>
+              <span>
+                <span className="section-titles-mockups">Procreate Art</span>
+                <br />I started the project by defining the theme and collecting
+                visual references. In Procreate, I began with an initial sketch
+                in layers, refining shapes and composition. I applied base color
+                blocks and added shadows to create depth. Next, I detailed the
+                main elements with textures and highlights, using specific
+                brushes. The finalization included color and contrast
+                adjustments, exporting the art in high resolution to be used in
+                the parallax composition process. This process ensured a
+                visually impactful and harmonious creation.
+              </span>
             </div>
-            {/* <div>
-              <img className="section-mockup-ipad" src="mockupIphone.png"></img>
-            </div> */}
+            <div className="section-mockup-makeup-div">
+              <span className="section-description-mockup-makeup">
+                <span className="section-titles-mockups">
+                  BeautyBeat Mobile
+                </span>
+                <br />
+                This mobile prototype was created with the aim of creating a
+                makeup community. A creative and colorful app to awaken users'
+                creativity and curiosity.
+              </span>
+              <img
+                className="section-mockup-makeup"
+                src="mockupMakeUp.png"
+              ></img>
+            </div>
+            <div className="section-div-mockup-quotes">
+              <img
+                className="section-mockup-quotes"
+                src="mockupQuotes.png"
+              ></img>
+              <span className="section-description-mockup-makeup">
+                <span className="section-titles-mockups">Quotes Generator</span>
+                <br />
+                Inspired by motivational daily messages on social media, I
+                designed and developed the project in order to put into practice
+                my skills as a designer and Front End developer.
+                <div className="section-button-quotes">
+                  <Button
+                    name="Open project"
+                    onClick={() =>
+                      openLink("https://quotes-quotes.netlify.app/")
+                    }
+                  />
+                </div>
+                <Button
+                  name="Download Resume"
+                  onClick={() => openLink("/resume.pdf")}
+                />
+              </span>
+            </div>
           </div>
         </div>
       </div>

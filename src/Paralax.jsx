@@ -4,6 +4,10 @@ import "./Paralax.css";
 import Section from "./Section";
 import Button from "./Button";
 
+const openLink = (link) => {
+  window.open(link, "_blank");
+};
+
 const Paralax = () => {
   return (
     <div className="wrapper">
@@ -41,7 +45,14 @@ const Paralax = () => {
           <div className="content-div-mokup">
             <img className="content-mockup" src="mockup.png"></img>
 
-            <Button name="LinkedIn" />
+            <Button
+              name="LinkedIn"
+              onClick={() =>
+                openLink(
+                  "https://www.linkedin.com/in/adriana-gonzaga-abbb58b4/"
+                )
+              }
+            />
           </div>
           <div className="content-about-me-div">
             <img className="content-about-me-img" src="./photoResume.png" />
