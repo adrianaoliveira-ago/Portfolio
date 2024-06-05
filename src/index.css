@@ -1,6 +1,8 @@
 body {
   margin: 0px;
   font-family: indie flower;
+  background-image: url(/pattern.svg);
+  background-image: repeat;
 }
 
 /* variables */

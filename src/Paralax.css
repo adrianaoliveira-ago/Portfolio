@@ -68,6 +68,8 @@ header {
   /* align-items: center; */
   /* background-color: #ff5490; */
   background-color: white;
+  background-image: url(/test.png);
+  background-repeat: repeat;
 }
 
 .content-about-me {
