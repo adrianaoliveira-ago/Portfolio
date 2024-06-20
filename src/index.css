@@ -3,6 +3,7 @@ body {
   font-family: indie flower;
   background-image: url(/pattern.svg);
   background-image: repeat;
+  scroll-behavior: smooth;
 }
 
 /* variables */

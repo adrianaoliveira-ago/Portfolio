@@ -132,3 +132,8 @@ header {
 .content-about-me-div {
   position: absolute;
 }
+
+a {
+  text-decoration: none;
+  color: #42210b;
+}

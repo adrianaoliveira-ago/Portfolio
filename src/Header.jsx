@@ -12,6 +12,13 @@ const Header = () => {
     console.log(email);
   };
 
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    document.getElementById(targetId).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div id="page-header">
@@ -20,10 +27,27 @@ const Header = () => {
         </div>
         <div className="page-header-ul">
           <ul className="page-header-li">
-            <li>Work</li>
-            <li>Resume</li>
-            <li>LinkedIn </li>
+            <a
+              href="#scrollDesigns"
+              onClick={(e) => handleSmoothScroll(e, "scrollDesigns")}
+            >
+              Designs
+            </a>
+
+            <a
+              href="#scrollResume"
+              onClick={(e) => handleSmoothScroll(e, "scrollResume")}
+            >
+              Resume
+            </a>
+            <a
+              href="#scrollLinkedin"
+              onClick={(e) => handleSmoothScroll(e, "scrollLinkedin")}
+            >
+              LinkedIn
+            </a>
           </ul>
+
           <Button name="Get In Touch" onClick={openEmail} />
         </div>
       </div>

@@ -79,6 +79,12 @@ const Section = () => {
                 <img className="section-icons" src="./iconAi.png"></img>
                 <img className="section-icons" src="./iconXd.png"></img>
                 <img className="section-icons" src="./iconFigma.png"></img>
+                {/* <img className="section-icons" src="./iconPs2.jpg"></img>
+                <img className="section-icons" src="./iconId2.jpg"></img>
+                <img className="section-icons" src="./iconPr2.jpg"></img>
+                <img className="section-icons" src="./iconAi2.jpg"></img>
+                <img className="section-icons" src="./iconXd2.jpg"></img>
+                <img className="section-icons" src="./iconFigma2.jpg"></img> */}
               </div>
             </div>
           </div>
@@ -89,6 +95,8 @@ const Section = () => {
                 <b> ☆ 2022 - Freelancer</b>
                 Consulted with clients, created logos, posters, presentation
                 based on their requirements.
+                <br />
+                <br />
                 <b> ☆ 2023 - Design Gráfico</b>
                 Criação de logotipos, banners, e material gráfico para websites
                 e redes sociais utilizando Adobe Photoshop e Illustrator.
@@ -105,7 +113,7 @@ const Section = () => {
           <div className="section-language-description">
             <br />
             English
-            <p>Intermediate</p>
+            <p>Advanced</p>
             German
             <p>Intermediate</p>
             Portuguese
@@ -115,7 +123,7 @@ const Section = () => {
           </div>
         </div>
         <div className="section-designs">
-          <div>
+          <div id="scrollDesigns">
             <h1 className="section-desings-title">Designs</h1>
           </div>
           <div>
@@ -154,7 +162,7 @@ const Section = () => {
             </div>
             <div className="section-div-mockup-quotes">
               <img
-                className="section-mockup-quotes"
+                className="section-mockup-quotes-img"
                 src="mockupQuotes.png"
               ></img>
               <span className="section-description-mockup-makeup">
@@ -163,7 +171,7 @@ const Section = () => {
                 Inspired by motivational daily messages on social media, I
                 designed and developed the project in order to put into practice
                 my skills as a designer and Front End developer.
-                <div className="section-button-quotes">
+                <div className="section-div-button">
                   <Button
                     name="Open project"
                     onClick={() =>
@@ -171,11 +179,103 @@ const Section = () => {
                     }
                   />
                 </div>
-                <Button
-                  name="Download Resume"
-                  onClick={() => openLink("/resume.pdf")}
-                />
               </span>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className="section-mockup-makeup-quitnic">
+              <span className="section-description-mockup-quitnic">
+                <span className="section-titles-mockups">Quit Nic Mobile</span>
+                <br />
+                The prototype was developed based on the idea of helping people
+                who are or want to quit smoking. Helping users with various
+                methodologies such as meeting alerts, chatting with people with
+                the same goal, and breath training. Among other features.
+              </span>
+              <img
+                className="section-mockup-quitnic-img"
+                src="mockupQuitNic.png"
+              ></img>
+            </div>
+            <br />
+            <br />
+            <div className="section-mockup-makeup-closeby">
+              <img
+                className="section-mockup-closeby-img"
+                src="mockupCloseBy.png"
+              ></img>
+              <span className="section-description-mockup-closeby">
+                <span className="section-titles-mockups">
+                  Close By - Community Services Mobile
+                </span>
+                <br />A design prototype based on the idea to help people around
+                a neighbourhood to help each other with different activities.
+                The App has the goal to make people grow together.
+              </span>
+            </div>
+
+            <div className="section-mockup-makeup-tasks">
+              <span className="section-description-mockup-tasks">
+                <span className="section-titles-mockups">ToDoList</span>
+                <br />
+                ToDoList is a responsive web app for creating daily lists. It
+                was designed with the goal to make the process of managing tasks
+                more pleasant.
+                <div className="section-div-button">
+                  <Button
+                    name="Open project"
+                    onClick={() =>
+                      openLink("https://travel-tasks.netlify.app/")
+                    }
+                  />
+                </div>
+              </span>
+              <img
+                className="section-mockup-tasks-img"
+                src="mockupTasks.png"
+              ></img>
+            </div>
+
+            <div className="section-mockup-magazine">
+              <img
+                className="section-mockup-maganize-img"
+                src="mockupMagazine.jpg"
+              ></img>
+              <br />
+              <span className="section-description-mockup-magazine">
+                <span className="section-titles-mockups">Cover Maganize</span>
+                <br />I created this magazine cover with the intention of
+                showcasing the influence of African culture on design. The goal
+                is to explore the vibrant colors as well as the rich textures
+                derived from this culture.
+              </span>
+            </div>
+            <br />
+            <br />
+            <div className="section-designs-and-descriptions">
+              <span>
+                <span className="section-titles-mockups">
+                  Milk Packaging Box
+                </span>
+                <br />I created this milk carton design for a college project
+                where we had to develop the entire creation process, including
+                font types, illustrations, colors, and all the information
+                contained on a milk carton. Additionally, we were tasked with
+                developing something innovative, and in my case, it was a plant
+                seed to cultivate within the milk carton itself.
+              </span>
+              <img
+                className="section-mockup-milkbox-img"
+                src="mockupMilkBox.png"
+              ></img>
+            </div>
+            <div className="section-div-button " id="scrollResume">
+              <Button
+                name="Download Resume"
+                onClick={() => openLink("/resume.pdf")}
+              />
             </div>
           </div>
         </div>

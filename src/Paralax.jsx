@@ -29,7 +29,7 @@ const Paralax = () => {
       </header>
 
       {/* rest of the content goes here */}
-      <div className="content">
+      <div className="content" id="scrollLinkedin">
         <section className="content-about-me">
           <p>
             Hello!

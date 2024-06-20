@@ -65,3 +65,8 @@
   color: #ff5490;
   font-size: 3em;
 }
+
+a {
+  text-decoration: none;
+  color: #42210b;
+}

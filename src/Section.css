@@ -50,6 +50,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 .section-div-experience {
@@ -274,7 +275,7 @@
   margin-left: 10em;
   margin-right: 10em;
 }
-.section-mockup-quotes {
+.section-mockup-quotes-img {
   width: 35em;
 }
 .section-titles-mockups {
@@ -282,9 +283,64 @@
   color: #ff5490;
   font-size: 2em;
 }
-.section-button-quotes {
+.section-div-button {
   display: flex;
   /* align-items: center; */
   justify-content: center;
   margin-top: 2em;
+}
+
+.section-mockup-makeup-quitnic {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-quitnic-img {
+  width: 50em;
+}
+.section-mockup-makeup-closeby {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-closeby-img {
+  width: 50em;
+}
+.section-mockup-makeup-tasks {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-tasks-img {
+  width: 35em;
+}
+.section-mockup-magazine {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-maganize-img {
+  width: 35em;
+  margin-right: 3em;
+  border-radius: 8px;
+}
+.section-mockup-milkbox {
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.section-mockup-milkbox-img {
+  width: 35em;
+  border-radius: 8px;
+  margin-left: 4em;
 }
