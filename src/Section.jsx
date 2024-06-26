@@ -1,6 +1,7 @@
 import "./Section.css";
 
 import Button from "./Button";
+import ButtonPexel from "./ButtonPexel";
 
 const openLink = (link) => {
   window.open(link, "_blank");
@@ -73,12 +74,12 @@ const Section = () => {
             <div className="section-div-icons">
               <h1 className="section-software-title">Software Skills</h1>
               <div className="section-icons-software">
-                <img className="section-icons" src="./iconPs.png"></img>
-                <img className="section-icons" src="./iconId.png"></img>
-                <img className="section-icons" src="./iconPr.png"></img>
-                <img className="section-icons" src="./iconAi.png"></img>
-                <img className="section-icons" src="./iconXd.png"></img>
-                <img className="section-icons" src="./iconFigma.png"></img>
+                <img className="section-icons" src="./PS.png"></img>
+                <img className="section-icons" src="./ID.png"></img>
+                <img className="section-icons" src="./PR.png"></img>
+                <img className="section-icons" src="./AI.png"></img>
+                <img className="section-icons" src="./XD.png"></img>
+                <img className="section-icons" src="./F.png"></img>
                 {/* <img className="section-icons" src="./iconPs2.jpg"></img>
                 <img className="section-icons" src="./iconId2.jpg"></img>
                 <img className="section-icons" src="./iconPr2.jpg"></img>
@@ -109,7 +110,7 @@ const Section = () => {
           </div>
         </div>
         <div className="section-div-language">
-          Language
+          <span>Language</span>
           <div className="section-language-description">
             <br />
             English
@@ -120,6 +121,9 @@ const Section = () => {
             <p>native</p>
             <br />
             <br />
+          </div>
+          <div className="section-button-pexel">
+            <ButtonPexel />
           </div>
         </div>
         <div className="section-designs">

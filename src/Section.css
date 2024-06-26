@@ -19,7 +19,7 @@
   padding-bottom: 5em;
   padding-top: 10em;
   padding-left: 9em;
-  padding-right: 18em;
+  /* padding-right: 18em; */
 }
 
 /* .section-experience {
@@ -33,12 +33,13 @@
 
 .section-experience {
   background-image: var(--section-gradient);
-  height: 33em;
-  width: 50em;
+  height: 36em;
+  width: 35em;
   display: flex;
   position: absolute;
   margin-right: 7em;
   border-radius: 1em;
+  margin-right: 17em;
 }
 
 .section-title {
@@ -99,8 +100,7 @@
   display: flex;
   /* background-color: aquamarine; */
   /* height: 10em; */
-  margin-top: 16em;
-
+  margin-top: 4em;
   flex-direction: column;
   /* align-items: center; */
 }
@@ -121,8 +121,8 @@
 }
 
 .section-education-description {
-  width: 20em;
-  margin-right: 10em;
+  /* width: 20em; */
+  margin-right: 8em;
   color: #42210b;
   font-size: 24px;
   font-family: var(--font-text);
@@ -138,6 +138,7 @@
   font-family: var(--font-text);
   color: #42210b;
   margin-top: -3em;
+  margin-left: 6em;
 }
 .section-div-description-skills {
   font-size: larger;
@@ -170,13 +171,15 @@
   margin: 0.2em;
 }
 
-/* .section-icons-software {
+.section-icons-software {
   display: flex;
-} */
+  /* width: 60%; */
+  justify-content: space-evenly;
+}
 
 .section-icons {
-  width: 3em;
-  height: 3em;
+  width: 4em;
+  height: 4em;
 }
 
 .section-icons-software > img:hover {
@@ -214,6 +217,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 3em;
+  width: 100%;
+  margin-top: 4em;
 }
 
 .section-software-title {
@@ -288,6 +293,8 @@
   /* align-items: center; */
   justify-content: center;
   margin-top: 2em;
+  padding-bottom: 10em;
+  padding-top: 4em;
 }
 
 .section-mockup-makeup-quitnic {
@@ -343,4 +350,10 @@
   width: 35em;
   border-radius: 8px;
   margin-left: 4em;
+}
+
+.section-button-pexel {
+  display: flex;
+  justify-content: flex-end;
+  width: 57%;
 }

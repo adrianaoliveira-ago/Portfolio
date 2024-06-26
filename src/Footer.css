@@ -1,12 +1,9 @@
 .footer {
-  background-color: palevioletred;
-  height: 24em;
-  margin-top: 15em;
+  /* background-color: palevioletred; */
+  /* height: 6em; */
   position: relative;
-}
-
-.footer-wave {
-  position: absolute;
-  display: flex;
-  margin-top: 19em;
+  /* background-repeat: repeat; */
+  background-repeat: repeat-x;
+  background-image: url("./assets/footerWave.png");
+  margin-top: -6em;
 }

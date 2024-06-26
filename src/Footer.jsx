@@ -1,13 +1,11 @@
 import "./Footer.css";
 
-import footerWave from "./assets/footerWave.svg";
+import footerWave from "./assets/footerWave.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-wave">
-        <img src={footerWave}></img>
-      </div>
+      <img src={footerWave}></img>
     </div>
   );
 };
