@@ -275,6 +275,53 @@ const Section = () => {
                 src="mockupMilkBox.png"
               ></img>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <div className="section-designs-and-descriptions">
+              <img
+                className="section-VILunaLatte-img"
+                src="mockupFolhetoCopos.png"
+              ></img>
+              <br />
+
+              <span>
+                <span className="section-titles-mockups">Visual Identity</span>
+                <br />
+                The visual identity of the "Luna Latte" brand is presented with
+                a contemporary, soft, and welcoming design, featuring a pastel
+                color palette consisting of shades of purple, pink, and light
+                blue. Each of these colors is used to differentiate different
+                product lines: "Gourmet" with pink accents, "Special" in light
+                blue, "Pure Organic" in earthy tones, and "Traditional" with a
+                predominant purple. The brand's central logo displays the name
+                "Luna Latte" in a handcrafted and relaxed typography,
+                complemented by hand-drawn illustrations of coffee beans and a
+                coffee bag, reinforcing the brand's artisanal and organic
+                concept. The presence of hand-drawn icons, such as coffee makers
+                and coffee cups, adds a touch of charm and authenticity to the
+                visual identity. The packaging and travel cups follow the
+                brand's color palette, with the "Luna Latte" name and logo
+                prominently displayed, ensuring consistency and brand
+                recognition. Each product line is highlighted with a specific
+                color, making it easy for consumers to identify. The overall
+                design is clean, modern, and pleasant, with a visual approach
+                that emphasizes the quality and purity of the products,
+                reflecting a brand that values both aesthetics and the consumer
+                experience.
+                <br />
+                <br />
+                <img
+                  className="VI-color-palette"
+                  src="colorPaletteID.svg"
+                ></img>
+                <br />
+                <br />
+                <img className="luna-latte-name" src="lunaLatteName.svg"></img>
+              </span>
+            </div>
             <div className="section-div-button " id="scrollResume">
               <Button
                 name="Download Resume"

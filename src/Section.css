@@ -357,3 +357,17 @@
   justify-content: flex-end;
   width: 57%;
 }
+
+.section-VILunaLatte-img {
+  width: 35em;
+  border-radius: 8px;
+  margin-right: 4em;
+}
+
+.VI-color-palette {
+  width: 7em;
+}
+
+.luna-latte-name {
+  width: 20em;
+}
